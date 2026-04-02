@@ -15,7 +15,7 @@ Backend Setup (FastAPI)
 
 2. Create and activate a virtual environment:
 ```python3.11 -m venv venv
-source venv/bin/activate```
+source venv/bin/activate
 
 3. Install dependencies:
 
