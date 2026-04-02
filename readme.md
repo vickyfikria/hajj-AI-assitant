@@ -4,9 +4,9 @@ This project consists of a FastAPI Python backend and a native Kotlin Android cl
 
 ## Project Structure
 
-*hajj_ai_backend/: Contains the FastAPI backend application.
+*`hajj_ai_backend`: Contains the FastAPI backend application.
 
-*hajj_ai_android/: Contains the native Kotlin Android client application.
+*`hajj_ai_android`: Contains the native Kotlin Android client application.
 
 Backend Setup (FastAPI)
 
