@@ -11,7 +11,9 @@ This project consists of a FastAPI Python backend and a native Kotlin Android cl
 Backend Setup (FastAPI)
 
 1. Navigate to the backend directory:
-`cd hajj_ai_backend`
+```
+cd hajj_ai_backend
+```
 
 2. Create and activate a virtual environment:
 ```
@@ -20,10 +22,21 @@ source venv/bin/activate
 ```
 
 3. Install dependencies:
-`pip install fastapi uvicorn openai`
+```
+pip install fastapi uvicorn openai
+```
 
 4. Set your OpenAI API Key:
 The application expects your OpenAI API key to be set as an environment variable named `OPENAI_API_KEY`.
-`export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"`
+```
+export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+```
 
-6. Set your OpenAI API Key:
+Replace `YOUR_OPENAI_API_KEY` with your actual OpenAI API key.
+
+5. Run the FastAPI application:
+
+```
+uvicorn main:app --host 0.0.0.0 --port 8000
+```
+
